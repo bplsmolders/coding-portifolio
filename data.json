@@ -30,8 +30,8 @@
         "project_name": "Interactive Form",
         "description": "This project shows an interactive registration form for a fictional Full Stack conference. The form makes validations by checking if the name field isn’t empty, email is formatted correctly, at least 1 activity is checked and payment details are fulfilled. Clear error/succes messages are shown for each field of the form and prices are accumulated for the chosen activities.",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": ["5 cups of flour", "1 1/2 cups of sugar", "1 packet of yeast", "1 teaspoon of salt", "1/2 cup of milk", "1/2 cup of water", "3/4 cup of butter", "2 eggs", "1 1/2 tablespoons of ground cinnamon"],
-        "github_link": "https://bplsmolders.github.io/Interactive-Form/",
+        "live_link": "https://bplsmolders.github.io/Interactive-Form/",
+        "github_link": "https://github.com/bplsmolders/Interactive-Form/settings",
         "image_urls": [
             "/static/images/formValidation/form1.png",
             "/static/images/formValidation/form2.png",

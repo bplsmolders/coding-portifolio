@@ -16,7 +16,7 @@ app.get('/about', (req, res) => {
     res.render('about')
 });
 
-app.get('/:id', (req, res, next) => {
+app.get('/project/:id', (req, res, next) => {
     const {id} = req.params;
     const project = projects[id]
 
@@ -52,7 +52,4 @@ app.use((err, req, res, next) =>{
 })
 
 
-app.listen(3000, () => {});  
-
-
-  
+app.listen(3000);  
