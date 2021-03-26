@@ -4,7 +4,7 @@ html(lang="en" dir="ltr")
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
+    title Portfolio Bart Smolders
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
@@ -14,17 +14,19 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          img.thumbnail(src="/static/images/profilePic.png", alt='')
         .dev-intro-box
 
           //- Replace with your name
-          h5 Name
+          h5 Bart Smolders
 
           //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
+          p Learning to code has become my new goal in order to create a web app for my project 10MindsMore and create a skill that goes for a life-time.
+          br
+          p Next to that I have a background as a Technical Engineer, where I focus on making thought-out decisions to optimize business processes. In order to serve a companies strategy, I use my leadership and organisational skills to help teams work more efficiently in complex situations. 
 
           //- Add path from your '/about' route handler to the href below
-          a(href='') Learn More &rarr;
+          a(href='/about') Learn More &rarr;
 
     .wrapper
       .header
@@ -32,7 +34,7 @@ html(lang="en" dir="ltr")
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
           //- Replace with your name — this is for the mobile layout
-          span Name
+          span Bart Smolders
 
       block content
 

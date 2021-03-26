@@ -1,0 +1,18 @@
+header
+    title Page Not Found
+
+body
+    block content
+    div.container
+        h1= `404 - Page Not Found`
+        p.not-found-p= `Oops!  It looks like the page you're looking for does not exist.`
+        hint
+
+        a.home(href=`/`) Home
+
+
+        if err
+
+        div
+            hr
+            pre #{err.stack}

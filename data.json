@@ -1,0 +1,70 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "This app displays random quotes from the tv-show “How I Met Your Mother”. Each time the button is clicked, or 10 seconds pass by,  a new quote is shown and the background changes to a random color.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://bplsmolders.github.io/A-Random-Quote-Generator/",
+        "github_link": "https://github.com/bplsmolders/A-Random-Quote-Generator",
+        "image_urls": [
+            "/static/images/quoteGenerator/quote1.png",
+            "/static/images/quoteGenerator/quote2.png"
+        ]
+      },
+      {
+        "id": 1,
+        "project_name": "Data Pagination and Filtering",
+        "description": "This app displays 42 students. You can switch trough the students using the pagebuttons or filtering them using the search field.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://bplsmolders.github.io/Data-Pagination-and-Filtering/.",
+        "github_link": "https://github.com/bplsmolders/Data-Pagination-and-Filtering",
+        "image_urls": [
+            "/static/images/dataPagination/data1.png",
+            "/static/images/dataPagination/data2.png",
+            "/static/images/dataPagination/data3.png"
+        ]
+      },
+      {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "This project shows an interactive registration form for a fictional Full Stack conference. The form makes validations by checking if the name field isn’t empty, email is formatted correctly, at least 1 activity is checked and payment details are fulfilled. Clear error/succes messages are shown for each field of the form and prices are accumulated for the chosen activities.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": ["5 cups of flour", "1 1/2 cups of sugar", "1 packet of yeast", "1 teaspoon of salt", "1/2 cup of milk", "1/2 cup of water", "3/4 cup of butter", "2 eggs", "1 1/2 tablespoons of ground cinnamon"],
+        "github_link": "https://bplsmolders.github.io/Interactive-Form/",
+        "image_urls": [
+            "/static/images/formValidation/form1.png",
+            "/static/images/formValidation/form2.png",
+            "/static/images/formValidation/form3.png"
+        ]
+      },
+      {
+        "id": 3,
+        "project_name": "Web Game: Phrase Hunter",
+        "description": "A browser-based, word guessing game: 'Phrase Hunter' You’ll get a random, hidden phrase, which a you trie to guess, by clicking letters on an onscreen keyboard or typing the letters. Go give it a try!",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://bplsmolders.github.io/OOP-Game-Show-App/",
+        "github_link": "https://github.com/bplsmolders/OOP-Game-Show-App",
+        "image_urls": [
+            "/static/images/phraseHunter/phrase1.png",
+            "/static/images/phraseHunter/phrase2.png",
+            "/static/images/phraseHunter/phrase3.png",
+            "/static/images/phraseHunter/phrase4.png"
+        ]
+      },
+      {
+        "id": 4,
+        "project_name": "Working with Public API's",
+        "description": "For this project, I build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. The employees are randomly called by using the Random User Generator API (https://randomuser.me/).",
+        "technologies": ["HTML", "CSS", "JavaScript", "HTTP", "AJAX", "Public API"],
+        "live_link": "https://bplsmolders.github.io/Public-API-Requests/",
+        "github_link": "https://github.com/bplsmolders/Public-API-Requests",
+        "image_urls": [
+            "/static/images/publicApi/api1.png",
+            "/static/images/publicApi/api2.png",
+            "/static/images/publicApi/api3.png"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,9 @@
+header
+    title Error
+
+bodu
+  h1= `Server Error`
+  h2= `Error status code: ${err.statusCode} - Server Error`
+  p.error-p= `Error message: ${err.message}`
+
+  a.home(href=`/`) Home

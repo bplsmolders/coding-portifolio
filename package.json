@@ -1,0 +1,24 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "Static Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bplsmolders/coding-portifolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bplsmolders/coding-portifolio/issues"
+  },
+  "homepage": "https://github.com/bplsmolders/coding-portifolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
