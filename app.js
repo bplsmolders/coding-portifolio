@@ -32,23 +32,21 @@ app.use((req, res, next) =>{
     const err= new Error();
     err.status = 404;
     err.message = 'looks like the page you requested does not exist'
+    console.error(err.message)
     next(err)
 
 })
 
 //global error handler
 app.use((err, req, res, next) =>{
-    if (err){
-        console.log('global error handler called', {err})
-    }
 
     if (err.status === 404){
         res.status(404).render('page-not-found', {err})
     } else {
         err.message =  'Whoops, seems that something went wrong';
+        console.error(err.message)
         res.status(err.status || 500).render('error', {err})
     }
-    
 })
 
 

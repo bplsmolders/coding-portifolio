@@ -151,7 +151,7 @@ nav a span {
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
-  border: 4px solid #fff;
+  border: 1px solid #fff;
 }
 
 .dev-intro-box {
@@ -273,7 +273,6 @@ nav a span {
 
 .about-bio p {
   font-size: 15px;
-  padding-top: 40px;
 }
 
 .skills-contact-box ul {
@@ -329,6 +328,10 @@ nav a span {
 
   .cell {
     margin: 0 0 15px;
+  }
+
+  .cell:hover{
+    box-shadow: 0px 1px grey;
   }
 
   .cell h5 {
