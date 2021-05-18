@@ -268,15 +268,31 @@ nav a span {
 */
 .about-intro-box p,
 .project-info-box p {
-  font-size: 125%;
+  font-size: 90%;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 .about-bio p {
   font-size: 15px;
 }
+h3{
+  text-decoration: underline;
+}
+h5 {
+  /* font-size: 15px; */
+  font-style:italic;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 
 .skills-contact-box ul {
   margin-bottom: 35px;
+}
+
+.skills-contact-box li {
+  font-size: 90%;
 }
 
 .project-img {
