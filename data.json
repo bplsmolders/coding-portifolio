@@ -82,11 +82,12 @@
         "project_name": "SQL Library Manager",
         "description": "This is a simple SQL database for handling books from a digital library. It’s able to CRUD data from the client side.",
         "technologies": ["JavaScript", "Node.js", "Express", "PUG", "SQLite", "SQL"],
-        "live_link": "",
+        "live_link": "https://sql-express-library.herokuapp.com/",
         "github_link": "https://github.com/bplsmolders/sql-express-library",
         "image_urls": [
-            "/static/images/ReactGalleryApp/Gallery1.png",
-            ""
+            "/static/images/SQLExpressLibrary/LibraryHome.png",
+            "/static/images/SQLExpressLibrary/Library1.png",
+            "/static/images/SQLExpressLibrary/Library2.png"
         ]
       }
     ]
