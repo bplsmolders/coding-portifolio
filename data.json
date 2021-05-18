@@ -64,6 +64,30 @@
             "/static/images/publicApi/api2.png",
             "/static/images/publicApi/api3.png"
         ]
+      },
+      {
+        "id": 5,
+        "project_name": "React Gallery App",
+        "description": "This project displays an image searching app using the react framework. It fetches a public api using Axios, filter results using a search bar and has the browser history connected to it.",
+        "technologies": ["ReactJS", "CSS", "Public API", "AXIOS"],
+        "live_link": "https://musing-morse-837356.netlify.app/",
+        "github_link": "https://github.com/bplsmolders/React-Gallery-App",
+        "image_urls": [
+            "/static/images/ReactGalleryApp/Gallery1.png",
+            "/static/images/ReactGalleryApp/Gallery2.png"
+        ]
+      },
+      {
+        "id": 6,
+        "project_name": "SQL Library Manager",
+        "description": "This is a simple SQL database for handling books from a digital library. It’s able to CRUD data from the client side.",
+        "technologies": ["JavaScript", "Node.js", "Express", "PUG", "SQLite", "SQL"],
+        "live_link": "",
+        "github_link": "https://github.com/bplsmolders/sql-express-library",
+        "image_urls": [
+            "/static/images/ReactGalleryApp/Gallery1.png",
+            ""
+        ]
       }
     ]
   }
