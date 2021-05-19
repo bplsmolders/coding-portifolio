@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon ./app.js"
   },
+  "engines": {
+    "node": "15.12.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bplsmolders/coding-portifolio.git"
