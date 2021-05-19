@@ -2,44 +2,57 @@
     "projects": [
       {
         "id": 0,
-        "project_name": "Random Quote Generator",
-        "description": "This app displays random quotes from the tv-show “How I Met Your Mother”. Each time the button is clicked, or 10 seconds pass by,  a new quote is shown and the background changes to a random color.",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://bplsmolders.github.io/A-Random-Quote-Generator/",
-        "github_link": "https://github.com/bplsmolders/A-Random-Quote-Generator",
+        "project_name": "Full-Stack JavaScript Database",
+        "description": "This full stack application will provide a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database. In addition, the project requires users to create an account and sign in to make changes to the database. Specific pages are only accessible for the authenticated user. Note: The live demo is not working yet",
+        "technologies": ["JavaScript","User Authentication","Node.js","Express","Sequelize", "REST API", "React", "SQLite", "SQL" ],
+        "live_link": "https://github.com/bplsmolders/Full-stack-school-database-app",
+        "github_link": "https://github.com/bplsmolders/Full-stack-school-database-app",
         "image_urls": [
-            "/static/images/quoteGenerator/quote1.png",
-            "/static/images/quoteGenerator/quote2.png"
+            "/static/images/FullStackDatabase/FS1.png",
+            "/static/images/FullStackDatabase/FS2.png",
+            "/static/images/FullStackDatabase/fS3.png"
         ]
       },
       {
         "id": 1,
-        "project_name": "Data Pagination and Filtering",
-        "description": "This app displays 42 students. You can switch trough the students using the pagebuttons or filtering them using the search field.",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://bplsmolders.github.io/Data-Pagination-and-Filtering/.",
-        "github_link": "https://github.com/bplsmolders/Data-Pagination-and-Filtering",
+        "project_name": "SQL Library Manager",
+        "description": "This is a simple SQL database for handling books from a digital library. It’s able to CRUD data from the client side. Note: Loading live demo can take a minute",
+        "technologies": ["JavaScript", "Node.js", "Express", "PUG", "SQLite", "SQL"],
+        "live_link": "https://sql-express-library.herokuapp.com/",
+        "github_link": "https://github.com/bplsmolders/sql-express-library",
         "image_urls": [
-            "/static/images/dataPagination/data1.png",
-            "/static/images/dataPagination/data2.png",
-            "/static/images/dataPagination/data3.png"
+            "/static/images/SQLExpressLibrary/LibraryHome.png",
+            "/static/images/SQLExpressLibrary/Library1.png",
+            "/static/images/SQLExpressLibrary/Library2.png"
         ]
       },
       {
         "id": 2,
-        "project_name": "Interactive Form",
-        "description": "This project shows an interactive registration form for a fictional Full Stack conference. The form makes validations by checking if the name field isn’t empty, email is formatted correctly, at least 1 activity is checked and payment details are fulfilled. Clear error/succes messages are shown for each field of the form and prices are accumulated for the chosen activities.",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "https://bplsmolders.github.io/Interactive-Form/",
-        "github_link": "https://github.com/bplsmolders/Interactive-Form/settings",
+        "project_name": "React Gallery App",
+        "description": "This project displays an image searching app using the react framework. It fetches a public api using Axios, filter results using a search bar and has the browser history connected to it.",
+        "technologies": ["ReactJS", "CSS", "Public API", "AXIOS"],
+        "live_link": "https://musing-morse-837356.netlify.app/",
+        "github_link": "https://github.com/bplsmolders/React-Gallery-App",
         "image_urls": [
-            "/static/images/formValidation/form1.png",
-            "/static/images/formValidation/form2.png",
-            "/static/images/formValidation/form3.png"
+            "/static/images/ReactGalleryApp/Gallery1.png",
+            "/static/images/ReactGalleryApp/Gallery2.png"
         ]
       },
       {
         "id": 3,
+        "project_name": "Working with Public API's",
+        "description": "For this project, I build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. The employees are randomly called by using the Random User Generator API (https://randomuser.me/).",
+        "technologies": ["HTML", "CSS", "JavaScript", "HTTP", "AJAX", "Public API"],
+        "live_link": "https://bplsmolders.github.io/Public-API-Requests/",
+        "github_link": "https://github.com/bplsmolders/Public-API-Requests",
+        "image_urls": [
+            "/static/images/publicApi/api1.png",
+            "/static/images/publicApi/api2.png",
+            "/static/images/publicApi/api3.png"
+        ]
+      },
+      {
+        "id": 4,
         "project_name": "Web Game: Phrase Hunter",
         "description": "A browser-based, word guessing game: 'Phrase Hunter' You’ll get a random, hidden phrase, which a you trie to guess, by clicking letters on an onscreen keyboard or typing the letters. Go give it a try!",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -53,54 +66,41 @@
         ]
       },
       {
-        "id": 4,
-        "project_name": "Working with Public API's",
-        "description": "For this project, I build an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. The employees are randomly called by using the Random User Generator API (https://randomuser.me/).",
-        "technologies": ["HTML", "CSS", "JavaScript", "HTTP", "AJAX", "Public API"],
-        "live_link": "https://bplsmolders.github.io/Public-API-Requests/",
-        "github_link": "https://github.com/bplsmolders/Public-API-Requests",
-        "image_urls": [
-            "/static/images/publicApi/api1.png",
-            "/static/images/publicApi/api2.png",
-            "/static/images/publicApi/api3.png"
-        ]
-      },
-      {
         "id": 5,
-        "project_name": "React Gallery App",
-        "description": "This project displays an image searching app using the react framework. It fetches a public api using Axios, filter results using a search bar and has the browser history connected to it.",
-        "technologies": ["ReactJS", "CSS", "Public API", "AXIOS"],
-        "live_link": "https://musing-morse-837356.netlify.app/",
-        "github_link": "https://github.com/bplsmolders/React-Gallery-App",
+        "project_name": "Interactive Form",
+        "description": "This project shows an interactive registration form for a fictional Full Stack conference. The form makes validations by checking if the name field isn’t empty, email is formatted correctly, at least 1 activity is checked and payment details are fulfilled. Clear error/succes messages are shown for each field of the form and prices are accumulated for the chosen activities.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://bplsmolders.github.io/Interactive-Form/",
+        "github_link": "https://github.com/bplsmolders/Interactive-Form/settings",
         "image_urls": [
-            "/static/images/ReactGalleryApp/Gallery1.png",
-            "/static/images/ReactGalleryApp/Gallery2.png"
+            "/static/images/formValidation/form1.png",
+            "/static/images/formValidation/form2.png",
+            "/static/images/formValidation/form3.png"
         ]
       },
       {
         "id": 6,
-        "project_name": "SQL Library Manager",
-        "description": "This is a simple SQL database for handling books from a digital library. It’s able to CRUD data from the client side. Note: Loading live demo can take a minute",
-        "technologies": ["JavaScript", "Node.js", "Express", "PUG", "SQLite", "SQL"],
-        "live_link": "https://sql-express-library.herokuapp.com/",
-        "github_link": "https://github.com/bplsmolders/sql-express-library",
+        "project_name": "Data Pagination and Filtering",
+        "description": "This app displays 42 students. You can switch trough the students using the pagebuttons or filtering them using the search field.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://bplsmolders.github.io/Data-Pagination-and-Filtering/.",
+        "github_link": "https://github.com/bplsmolders/Data-Pagination-and-Filtering",
         "image_urls": [
-            "/static/images/SQLExpressLibrary/LibraryHome.png",
-            "/static/images/SQLExpressLibrary/Library1.png",
-            "/static/images/SQLExpressLibrary/Library2.png"
+            "/static/images/dataPagination/data1.png",
+            "/static/images/dataPagination/data2.png",
+            "/static/images/dataPagination/data3.png"
         ]
       },
       {
         "id": 7,
-        "project_name": "Full-Stack JavaScript Database",
-        "description": "This is a simple SQL database for handling books from a digital library. It’s able to CRUD data from the client side. Note: Loading live demo can take a minute",
-        "technologies": ["JavaScript", "Node.js", "Express", "PUG", "SQLite", "SQL"],
-        "live_link": "https://github.com/bplsmolders/Full-stack-school-database-app",
-        "github_link": "https://github.com/bplsmolders/Full-stack-school-database-app",
+        "project_name": "Random Quote Generator",
+        "description": "This app displays random quotes from the tv-show “How I Met Your Mother”. Each time the button is clicked, or 10 seconds pass by,  a new quote is shown and the background changes to a random color.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://bplsmolders.github.io/A-Random-Quote-Generator/",
+        "github_link": "https://github.com/bplsmolders/A-Random-Quote-Generator",
         "image_urls": [
-            "/static/images/SQLExpressLibrary/LibraryHome.png",
-            "/static/images/SQLExpressLibrary/Library1.png",
-            "/static/images/SQLExpressLibrary/Library2.png"
+            "/static/images/quoteGenerator/quote1.png",
+            "/static/images/quoteGenerator/quote2.png"
         ]
       }
     ]
